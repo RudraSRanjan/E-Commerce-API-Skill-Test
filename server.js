@@ -1,7 +1,6 @@
 import express from "express";
 
 import {connectUsingMongoose} from "./config/mongoose.config.js";
-import mongoose from "mongoose";
 import productRouter from "./features/product/routes.js";
 
 //Create server using express
